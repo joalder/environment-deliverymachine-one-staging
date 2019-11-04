@@ -1,9 +1,18 @@
 dependencies:
-- name: exposecontroller
-  version: 2.3.112
+- name: env
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 0.0.478
+- alias: expose
+  name: exposecontroller
   repository: http://chartmuseum.jenkins-x.io
-  alias: expose
-- name: exposecontroller
   version: 2.3.112
+- alias: cleanup
+  name: exposecontroller
   repository: http://chartmuseum.jenkins-x.io
-  alias: cleanup
+  version: 2.3.112
+- name: jx-python-demo
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 0.0.6
+- name: jx-spring-demo
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 0.0.7
