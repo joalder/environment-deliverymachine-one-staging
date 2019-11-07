@@ -10,3 +10,6 @@ dependencies:
 - name: jx-python-demo
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.21
+- name: lunchup-scheduler
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 0.0.20
