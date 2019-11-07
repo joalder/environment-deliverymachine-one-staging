@@ -20,7 +20,7 @@ expose:
   - --v
   - 4
   config:
-    domain: backend.lunchup.rocks
+    domain: 34.65.159.81.nip.io
     exposer: Ingress
     http: "true"
     tlsacme: "false"
