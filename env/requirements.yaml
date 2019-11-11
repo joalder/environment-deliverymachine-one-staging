@@ -12,7 +12,7 @@ dependencies:
   version: 0.0.21
 - name: lunchup-backend
   repository: http://jenkins-x-chartmuseum:8080
-  version: 0.1.32
+  version: 0.1.33
 - name: lunchup-scheduler
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.22
